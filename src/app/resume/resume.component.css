@@ -1,0 +1,47 @@
+.resume-wrap{
+   width: 50%;
+   margin: auto;
+   background-color: rgba(220, 20, 60, 0.496);
+   padding: 20px 10px;
+   
+}
+.main-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.resume-text h1{
+    padding-left: 40px;
+}
+.resume-text{
+    width: 50%;
+}
+.resume-text ul{
+    list-style: none;
+}
+.resume-text ul li{
+    margin-bottom: 15px;
+}
+.resume-wrap img{
+width: 45%;
+}
+.component-wrap{
+    background-color: rgba(235, 78, 135, 0.496);
+    padding: 20px 10px;
+    color: cornsilk;
+    width: 45%;
+ }
+ .component-wrap ul{
+    margin-bottom: 10px;
+    list-style: disc;
+ }
+ .links{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0px;
+ }
+ .links a{
+    color: rgb(169, 25, 25);
+ }

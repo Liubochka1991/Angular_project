@@ -1,0 +1,36 @@
+.hobby-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 127, 80, 0.616);
+}
+.main-h1{
+    position: absolute;
+    top:5px;
+    left: 45%;
+}
+.hobby-img{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.hobby-img img{
+    width: 48%;
+}
+.hobby-text{
+    width: 49%;
+    padding: 20px 0px;
+}
+
+.hobby-text h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.hobby-text p{
+    color: rgb(85, 21, 21);
+}
