@@ -12,4 +12,6 @@ email:String='rysaja@gmail.com';
 home:String='Чернівці';
 experience:Number=2;
 photo:Object='../../assets/photo.jpg';
+payment:number=1000
+apply:number=0.8
 }

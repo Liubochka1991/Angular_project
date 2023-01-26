@@ -1,0 +1,16 @@
+  <header>
+    <nav>
+      <ul>
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+          <a href="">home</a>
+        </li>
+        <li routerLinkActive="active"><a routerLink="billGates">Bill Gates</a> </li>
+        <li routerLinkActive="active"><a routerLink="hobby"> Hobby</a></li>
+        <li routerLinkActive="active"> <a routerLink="resume">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  <router-outlet></router-outlet>
+  <footer>
+    <h3>Hello, this is footer!!!</h3>
+  </footer>
