@@ -21,6 +21,28 @@
         <div class="links">
             <a href="gitHub">GitHub</a><a href="Linkedln">Linkedln</a><a href="Twitter">Twitter</a>
         </div>
+        <div class="hobbies">
+            <h2>Мої хоббі:</h2>
+            <ul>
+                <li *ngFor="let item of hobby">
+                {{ item.name}}
+             </li>
+            </ul>
+            <div *ngIf="hobby.length>1"><p>Кількість хоббі: {{hobby.length}}</p> </div>
+            <p>Оцінка кількості: {{hobby.length==1 ? 'Одне хоббі' : 'Багато хоббі'}}</p>
+        </div>
+        <div class="my-car">
+            <h2>Спробуйте вгадати, які машини я маю:</h2>
+                <input type="text" #input1 (keyup.enter)="input1.value">
+                <ul [ngSwitch]="input1.value">
+                    <li *ngSwitchCase="bmw">Так, в мене є {{bmw}}</li>
+                    <li *ngSwitchCase="audi">Так, в мене є {{audi}}</li>
+                    <li *ngSwitchCase="mersedes">Так, в мене є {{mersedes}}</li>
+                    <li *ngSwitchDefault="">Введіть іншу марку авто</li>
+                </ul>
+
+        </div>
+        
     </div>
 </div>
 

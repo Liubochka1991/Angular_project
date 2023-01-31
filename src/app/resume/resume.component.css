@@ -45,3 +45,15 @@ width: 45%;
  .links a{
     color: rgb(169, 25, 25);
  }
+.hobbies{
+    background-color: rgba(235, 78, 135, 0.496);
+    padding:10px;
+    color: white;
+}
+ .hobbies ul{
+    list-style: none;
+    padding: none;
+ }
+ .hobbies h2, p{
+    padding-left: 20px;
+ }
